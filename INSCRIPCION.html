@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="INSCRIPCION.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="FORMULARIO.html">FORMULARIO DE INSCRIPCION</a></li>
+    </nav>
+    <fieldset>
+    <label for="Nombre">Nombre Completo:</label>
+    <input type="text" id="Nombre" name="Nombre" required>
+
+    <label for="Email">Correo electronico:</label>
+    <input type="Email" id="Email" name="Email" required>
+    
+    <label for="Telefono">Telefono:</label>
+    <input type="tel" id="Telefono" name="Telefono" pattern="[0-9]{10}" required>
+    
+    <label for="Genero">Genero:</label>
+    <input type="text" id="Genero" name="Genero" required>
+    </fieldset>
+
+    <fieldset>
+    <label for="Motivo">Motivo de inscripcion:</label>
+    <select id="Motivo" name="motivo" required>
+        <option value="">Seleccione un motivo</option>
+        <option value="">Deseo tonificar</option>
+        <option value="">Deseo ganar masa muscular</option>
+        <option value="">Deseo ganar peso</option>
+        <option value="">Deseo perder peso</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <label for="Descripcion">Descripcion:</label>
+    <textarea id="Descripcion" name="Descripcion" rows="4" required></textarea>
+    <label for="anexo">Adjuntar archivos:</label>
+    <input type="file" id="anexo" name="anexo">
+    <input type="submit" value="ENVIAR">
+
+</fieldset>
+
+<input type="checkbox" id="myCheckbox" name="myCheckbox">
+<label for="myCheckbox">Acepto recibir más informacion acerca de NEXUS</label>
+
+<ul>
+    <li><a href="INICIO.html">INICIO</a></li>
+</ul>
+</body>
+</html>

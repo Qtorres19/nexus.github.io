@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6c8d8a;
+    text-align: center;
+}
+
+form {
+    max-width: 200px;
+    margin: 2px;
+    padding: 22px;
+    border: 8px solid #05599181;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+label{
+    display: black;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 98%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #063d4e;
+    border-radius: 24px;
+}
+
+input {
+    background-color: rgb(199, 197, 198);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(24, 15, 104);
+
+}
+
+
+nav ul li:hover>ul  { 
+    display: block;
+
+}
+
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+nav ul{ 
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    background-color: rgb(37, 36, 39);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{ 
+    display: inline;
+}
+
+nav a{ 
+    text-decoration: none;
+    color: rgb(61, 208, 228);
+    padding: 20px 20px;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: background-color 0.3, borde-color 0.3;
+}
+
+nav a:hover{ 
+    background-color: rgb(17, 108, 131);
+    border-color: rgb(42, 42, 221);
+}
